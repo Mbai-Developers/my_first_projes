@@ -7,11 +7,67 @@
 
 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="mbai_style.css"/>
+    <link rel="stylesheet" href="mbai_style.css">
 
 
 </head>
-<body></body>
+<body>
+!-- ── NAVBAR ── -->
+<nav>
+  <div class="nav-logo">MBAI <span>🌿</span> Fruits & Veggies</div>
+  <ul class="nav-links">
+    <li><a href="#" onclick="showPage('home')">Home</a></li>
+    <li><a href="#" onclick="showPage('shop')">Shop</a></li>
+    <li><a href="#" onclick="showPage('about')">About Us</a></li>
+    <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+  </ul>
+  <button class="nav-cart" onclick="showPage('shop')">🛒 Cart (0)</button>
+</nav>
+ 
+<!-- ══════════════════════════════
+     HOME PAGE
+══════════════════════════════ -->
+<section id="home" class="page active">
+ 
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-content">
+      <div class="hero-tag">🌱 100% Fresh & Natural</div>
+      <h1>Farm Fresh <em>Fruits</em> &amp; <em>Veggies</em> Delivered to You</h1>
+      <p>MBAI brings the finest seasonal produce straight from local farms to your doorstep. No preservatives, no compromise — just pure freshness.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="showPage('shop')">Shop Now →</button>
+        <button class="btn-secondary" onclick="showPage('about')">Our Story</button>
+      </div>
+    </div>
+    <div class="hero-floats">
+      <div class="float-grid">
+        <div class="float-card"><div class="emoji">🍅</div><div class="label">Tomatoes</div></div>
+        <div class="float-card"><div class="emoji">🥦</div><div class="label">Broccoli</div></div>
+        <div class="float-card"><div class="emoji">🍓</div><div class="label">Strawberry</div></div>
+        <div class="float-card"><div class="emoji">🥕</div><div class="label">Carrots</div></div>
+        <div class="float-card"><div class="emoji">🍋</div><div class="label">Lemons</div></div>
+        <div class="float-card"><div class="emoji">🥬</div><div class="label">Lettuce</div></div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Features Strip -->
+  <div class="features-strip">
+    <div class="feature-item"><span>🚚</span> Free delivery over $30</div>
+    <div class="feature-item"><span>🌿</span> 100% Organic options</div>
+    <div class="feature-item"><span>⚡</span> Same-day delivery</div>
+    <div class="feature-item"><span>🔄</span> Easy returns</div>
+    <div class="feature-item"><span>🌍</span> Locally sourced</div>
+  </div>
+ 
+  <!-- Categories -->
+  <div class="section">
+    <div class="section-label">Browse by Category</div>
+    <div class="section-title">What Are You Looking For?</div>
+    <div class="cat-grid">
+      <div class="cat-card" onclick="showPage('shop')"><div class="cat-emoji">
+</body>
 
 </body>
 </html>
