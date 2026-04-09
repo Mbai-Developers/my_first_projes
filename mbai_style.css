@@ -206,3 +206,17 @@ nav {
   transform: translateY(-2px);
   box-shadow: 0 8px 28px rgba(82, 183, 136, 0.45);
 }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--green-light);
+  border: 1.5px solid rgba(183, 228, 199, 0.45);
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+
+}
