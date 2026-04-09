@@ -43,7 +43,7 @@ nav {
   top: 0; left: 0; right: 0;
   z-index: 999;
   background: rgba(26, 58, 42, 0.97);
-  backdrop-filter: blur(12px);
+  -webkit-backdrop: blur(12px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -183,3 +183,26 @@ nav {
   flex-wrap: wrap;
 }
 
+
+/*Buttons*/
+
+.btn-primary {
+
+  background: var(--green-soft);
+  color: #fff;
+  border: none;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  box-shadow: 0 4px 18px rgba (82, 183, 136, 0.35);
+}
+
+.btn-primary:hover {
+  background: #3da875;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(82, 183, 136, 0.45);
+}
