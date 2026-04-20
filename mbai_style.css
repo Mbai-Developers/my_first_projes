@@ -279,3 +279,13 @@ nav {
   0%, 100% { transform: translateY(0); }
   50%       { transform: translateY(-8px); }
 }
+
+/*Feature strip */
+.features-strip {
+  background: var(--green-dark);
+  padding: 1.5rem 5%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+} 
